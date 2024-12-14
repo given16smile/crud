@@ -1,0 +1,97 @@
+ <web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4">
+ <!-- Login -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>   
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+ <!-- insert modele -->
+    <servlet>
+        <servlet-name>ModelForm</servlet-name>
+        <servlet-class>servlet.ModelForm</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ModelForm</servlet-name>
+        <url-pattern>/modelform</url-pattern>
+    </servlet-mapping>
+<!-- liste des modeles -->
+    <servlet>
+        <servlet-name>ModelServlet</servlet-name>
+        <servlet-class>servlet.ModelServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ModelServlet</servlet-name>
+        <url-pattern>/model</url-pattern>
+    </servlet-mapping>
+
+     <!-- insert car -->
+    <servlet>
+        <servlet-name>CarForm</servlet-name>
+        <servlet-class>servlet.CarForm</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CarForm</servlet-name>
+        <url-pattern>/carform</url-pattern>
+    </servlet-mapping>
+<!-- liste des cars -->
+    <servlet>
+        <servlet-name>CarServlet</servlet-name>
+        <servlet-class>servlet.CarServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CarServlet</servlet-name>
+        <url-pattern>/car</url-pattern>
+    </servlet-mapping>
+    <!-- insert vente -->
+    <servlet>
+        <servlet-name>VenteForm</servlet-name>
+        <servlet-class>servlet.VenteForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VenteForm</servlet-name>
+        <url-pattern>/venteform</url-pattern>
+    </servlet-mapping>
+<!-- liste des ventes -->
+    <servlet>
+        <servlet-name>VenteServlet</servlet-name>
+        <servlet-class>servlet.VenteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>VenteServlet</servlet-name>
+        <url-pattern>/vente</url-pattern>
+    </servlet-mapping>
+
+     <!-- insert reparation -->
+    <servlet>
+        <servlet-name>ReparationForm</servlet-name>
+        <servlet-class>servlet.ReparationForm</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReparationForm</servlet-name>
+        <url-pattern>/reparationform</url-pattern>
+    </servlet-mapping>
+<!-- liste des reparations -->
+    <servlet>
+        <servlet-name>ReparationServlet</servlet-name>
+        <servlet-class>servlet.ReparationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReparationServlet</servlet-name>
+        <url-pattern>/reparation</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+
+
+
+

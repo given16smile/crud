@@ -1,0 +1,12 @@
+- java 17.0.2
+- tomcat 10.1.7
+- base : mysql : script : VaikaSrcipt, donnee : VaikaDonnee
+- config mysql dans vaika/src/Connector.java
+- config PRIJECT_DIR et TOMCAT_DIR et lancer deploy.bat pour deployer vaika dans tomcat
+- url : http://localhost:8085/Cluster/model
+
+- login rehefa manao changement : insert, delete, update 
+
+- pour ajouter nouvelle voiture : new model :
+
+(new car : tsy izy)
